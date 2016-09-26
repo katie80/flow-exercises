@@ -14,6 +14,8 @@
 		*/
 	
 		var input_num = prompt("What's the temperature?");
+
+		input_num = parseFloat(input_num); //not necessary in this case, but helpful if you want to make sure their input is actually a number.
 		
 		if (input_num < 30) {
 			console.log("It's really cold.");
